@@ -1,0 +1,30 @@
+git --version                                                       // version fo git
+
+git config --global user.name "username"                            // set user name for git
+
+git config --global user.email "useremail"                          // set user's email for git
+
+git config --list                                                   // show list of configuration
+
+git config -- global core.editor "directory address of editor"      // change editor
+
+ctrl+c                                                              // cancel command
+
+cd 'directory address'                                              // for change directory(go to the address)
+
+*******************************************************************************************
+
+//in cmd:
+git clone 'link_of_repository'                       // to get from Github(download)
+
+//in folder contain codes:
+code .                                              // for open file(repository that downloaded) in editor(VsCode)
+
+// in vscode Terminal:
+git status                                          // show status of repository
+
+git add .\filename                                         // add all files in repository to staging area
+
+git commit -m "message"                                    // write message(change in local)
+
+git push  
