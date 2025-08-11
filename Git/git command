@@ -25,6 +25,20 @@ git status                                          // show status of repository
 
 git add .\filename                                         // add all files in repository to staging area
 
-git commit -m "message"                                    // write message(change in local)
+
+*********************************************************************************************
+
+git merge --abort        – Cancel a merge in progress and return to the state before it started.
+
+git fetch origin         – Download the latest changes from the remote without changing your local files.
+
+git reset --hard origin/main             – Discard all local changes and match your branch exactly to the remote main.
+
+git clean -fd            – Remove all untracked files and folders from the working directory.
+              -d   it also deletes untracked folders.
+              -f   it forces the deletion.
+
+git commit -m "message"                         // write message(change in local)
 
 git push  
+
