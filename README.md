@@ -1,2 +1,5 @@
 # Learn-code
-Quick review Python, C++
+Quick review :
+## Python
+## C++
+## Git
