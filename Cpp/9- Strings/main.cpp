@@ -7,7 +7,7 @@ using namespace std;
 /*
 '\0'   -->    End of string character
 
-srtlen  -->  return length of string without '\0', means return real length of string
+strlen  -->  return length of string without '\0', means return real length of string
 
 strchr()  -->  To find the first location of a specific character in a string
     str → The address of the string we want to search in.
